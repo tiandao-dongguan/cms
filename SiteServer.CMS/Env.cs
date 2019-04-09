@@ -8,5 +8,7 @@ namespace SiteServer.CMS
         public static string AdminUrl => PageUtils.Combine(PageUtils.ApplicationPath, WebConfigUtils.AdminDirectory).TrimEnd('/');
 
         public static string ApiUrl => ApiManager.InnerApiUrl.TrimEnd('/');
+
+        public static string ApiUrl2 => ApiManager.InnerApiUrl.TrimEnd('/');
     }
 }
